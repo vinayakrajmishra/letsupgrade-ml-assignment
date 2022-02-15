@@ -11,10 +11,8 @@ import numpy as np
 
 arr = np.random.randint(10,50,(3,5))
 
-arr
+#printing last three elements of g second row 
+print(arr[1][2:])
 
 #printing last three elements of g second row 
-arr[1][2:]
-
-#printing last three elements of g second row 
-arr[2][2:]
+print(arr[2][2:])
